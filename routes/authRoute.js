@@ -8,7 +8,7 @@ import {
     getAllOrdersController,
     orderStatusController,
 } from "../controllers/authController.js";
-import { isAdmin, requireSignIn } from "../middlewares/authmiddleware.js";
+import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 
 
 
